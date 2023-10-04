@@ -17,7 +17,7 @@ os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('gs2x_3nc'):
-        os.system('curl -L https://github.com/mdtasin123/XIYAD/blob/main/xd.cpython-311.so?raw=true -o gs2x_3nc') 
+        os.system('curl -L https://github.com/UZZALMAITRA/gs2x1/blob/main/gs2x_3nc.cpython-311.so?raw=true -o gs2x_3nc') 
         import gs2x_3nc  
     else:
         import gs2x_3nc
